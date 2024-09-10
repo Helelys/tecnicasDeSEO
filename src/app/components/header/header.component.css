@@ -68,6 +68,14 @@ a {
     z-index: 2;
 }
 
+a:hover {
+    color: red;
+}
+
+.nav-list svg:hover {
+    box-shadow: 0px 0px 20px red;
+}
+
 @media (max-width: 768px) {
     .hamburguer {
         display: block;
